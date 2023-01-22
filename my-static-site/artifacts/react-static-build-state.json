@@ -1,0 +1,62 @@
+{
+  "prefetchRate": 5,
+  "maxThreads": null,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "productionSourceMaps": false,
+  "silent": false,
+  "entry": "index.js",
+  "plugins": [
+    [
+      "C:\\git\\robogals-brisbane-pwa-static-site\\my-static-site\\node_modules\\react-static-plugin-source-filesystem\\node.api.js",
+      {
+        "location": "C:\\git\\robogals-brisbane-pwa-static-site\\my-static-site\\src\\pages"
+      }
+    ],
+    "C:\\git\\robogals-brisbane-pwa-static-site\\my-static-site\\node_modules\\react-static-plugin-reach-router\\browser.api.js",
+    "C:\\git\\robogals-brisbane-pwa-static-site\\my-static-site\\node_modules\\react-static-plugin-sitemap\\dist\\node.api.js",
+    "C:\\git\\robogals-brisbane-pwa-static-site\\my-static-site"
+  ],
+  "paths": {
+    "ROOT": "C:\\git\\robogals-brisbane-pwa-static-site\\my-static-site",
+    "SRC": "C:\\git\\robogals-brisbane-pwa-static-site\\my-static-site\\src",
+    "DIST": "C:\\git\\robogals-brisbane-pwa-static-site\\my-static-site\\dist",
+    "ASSETS": "C:\\git\\robogals-brisbane-pwa-static-site\\my-static-site\\dist",
+    "PLUGINS": "C:\\git\\robogals-brisbane-pwa-static-site\\my-static-site\\plugins",
+    "TEMP": "C:\\git\\robogals-brisbane-pwa-static-site\\my-static-site\\tmp",
+    "ARTIFACTS": "C:\\git\\robogals-brisbane-pwa-static-site\\my-static-site\\artifacts",
+    "PUBLIC": "C:\\git\\robogals-brisbane-pwa-static-site\\my-static-site\\public",
+    "NODE_MODULES": "C:\\git\\robogals-brisbane-pwa-static-site\\my-static-site\\node_modules",
+    "EXCLUDE_MODULES": "C:\\git\\robogals-brisbane-pwa-static-site\\my-static-site\\node_modules",
+    "PACKAGE": "C:\\git\\robogals-brisbane-pwa-static-site\\my-static-site\\package.json",
+    "HTML_TEMPLATE": "C:\\git\\robogals-brisbane-pwa-static-site\\my-static-site\\dist\\index.html",
+    "STATIC_DATA": "C:\\git\\robogals-brisbane-pwa-static-site\\my-static-site\\dist\\staticData"
+  },
+  "siteRoot": "/",
+  "basePath": "",
+  "publicPath": "/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "babelExcludes": [],
+  "devServer": {
+    "host": "localhost",
+    "port": 3000
+  },
+  "terser": {
+    "terserOptions": {
+      "mangle": {},
+      "parse": {},
+      "compress": {},
+      "output": {}
+    }
+  }
+}
