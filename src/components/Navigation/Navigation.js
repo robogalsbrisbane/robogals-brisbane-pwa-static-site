@@ -44,7 +44,7 @@ class Navigation extends Component {
                                 <Link className="sub-heading" to="/executives">Exec Team</Link>
                             </li>
                             <li>
-                                <Link className="sub-heading" to="/blog">Blog</Link>
+                                <Link className="sub-heading" to="/partners">Partners</Link>
                             </li>
                             <li>
                                 <Link className="sub-heading" to="/dynamic">Dynamic</Link>
