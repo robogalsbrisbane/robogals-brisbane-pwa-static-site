@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+.Executive-team {
+    display: grid;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.Executive-box {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    margin: auto;
+    width: 100%;
+}
+
+.Executive-text {
+    position: absolute;
+    padding: 10px;
+    justify-content: left;
+    bottom: 2%;
+    left: 50%;
+    background-color: #0960A5;
+    opacity: 0.9;
+    text-align: center;
+    align-self: center;
+    transform: translate(-50%, -50%);
+    width: 75%;
+}
+
+@media screen and (min-width: 675px) {
+
+    .Executive-team {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 0fr);
+    }
+
+    .Executive-box:first-of-type {
+        max-width: 575px;
+        width: 50vw;
+        grid-column: 1 / span 2;
+    }
+
+    .Executive-text {
+        width: 90%;
+        bottom: 0;
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (min-width: 675px) and (max-width: 1000px) {
+
+    .Executive-box:last-of-type {
+        width: 50vw;
+        grid-column: 1 / span 2;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+
+    .Executive-team {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 0fr);
+        max-width: 1600px;
+        margin: auto;
+    }
+
+    .Executive-box:first-of-type {
+        max-width: 575px;
+        width: 40vw;
+        grid-column: 1 / span 3;
+    }
+
+}
+
+.Executive-box:hover img {
+    opacity: 0.5;
+}
+
+.Executive-image {
+    width: 100%;
+    border-radius: 25px;
+}
+
+.exec-title {
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    color: #FFFFFF;
+    opacity: 0.9;
+}
+
+.click-execs-text {
+    min-width: 300px;
+    max-width: 650px;
+    margin: auto;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    box-sizing: inherit;
+    padding: 25px 0px 0px 0px;
+    line-height: 1.125;
+    font-size: 1.25em;
+    margin-bottom: 0.6666em;
+    font-weight: 600;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}

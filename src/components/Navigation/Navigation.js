@@ -41,16 +41,13 @@ class Navigation extends Component {
                                 <Link className="sub-heading" to="/">Home</Link>
                             </li>
                             <li>
-                                <Link className="sub-heading" to="/about">About</Link>
+                                <Link className="sub-heading" to="/executives">Exec Team</Link>
                             </li>
                             <li>
                                 <Link className="sub-heading" to="/blog">Blog</Link>
                             </li>
                             <li>
                                 <Link className="sub-heading" to="/dynamic">Dynamic</Link>
-                            </li>
-                            <li>
-                                <Link className="sub-heading" to="/Page">Test</Link>
                             </li>
                         </ul>
                     </li>
