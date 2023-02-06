@@ -11,6 +11,16 @@ a {
     color: #2196F3;
 }
 
+.content {
+    background: white;
+}
+
+.content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
+    color: #363636;
+    font-weight: 400;
+    line-height: 1.125;
+}
+
 /* Heading */
 .content > h1 {
     font-size: 28pt;
@@ -26,6 +36,11 @@ a {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     text-align: center;
+}
+
+.content h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.6666em;
 }
 
 html, body, #root, .fill-area {

@@ -1,3 +1,18 @@
+
+.hero {
+  align-items: stretch;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hero-body {
+  flex-grow: 1;
+  flex-shrink: 0;
+  padding: 3rem 1.5rem;
+}
+
 .Hero-text {
   text-align: center;
   display: flex;
