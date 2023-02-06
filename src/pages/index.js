@@ -16,24 +16,24 @@ export default function HomePage() {
         <div class="container content">
             <h3>Our Initiatives</h3>
             <div class="example absolute">
-                <div class="item"><img src="/test/home_workshops.png"/>
+                <div class="item"><img src="/home/home_workshops.png"/>
                     <div class="image-text">Student Workshops</div>
                 </div>
-                <div class="item"><img src="/test/home_stemconnect.png"/>
+                <div class="item"><img src="/home/home_stemconnect.png"/>
                     <div class="image-text">STEMConnect Mentoring Program</div>
                 </div>
-                <div class="item "><img src="/test/home_industry.png"/>
+                <div class="item "><img src="/home/home_industry.png"/>
                     <div class="image-text">Industry Meet-Ups</div>
                 </div>
             </div>
             <div class="example absolute">
-                <div class="item"><img src="/test/home_social_events.png"/>
+                <div class="item"><img src="/home/home_social_events.png"/>
                     <div class="image-text">Social Events</div>
                 </div>
-                <div class="item"><img src="/test/home_rural.png"/>
+                <div class="item"><img src="/home/home_rural.png"/>
                     <div class="image-text">Rural Trips</div>
                 </div>
-                <div class="item "><img src="/test/home_teacher_workshops.png"/>
+                <div class="item "><img src="/home/home_teacher_workshops.png"/>
                     <div class="image-text">Teacher Workshops</div>
                 </div>
             </div>
@@ -41,18 +41,18 @@ export default function HomePage() {
         <div class="Page-content container content">
             <h3>Getting Involved</h3>
             <div class="example absolute">
-                <div class="item clickable"><a href="/library-workshops-public-events"><img src="/test/students.png"/></a>
+                <div class="item clickable"><a href="/library-workshops-public-events"><img src="/home/students.png"/></a>
                     <div class="panel-text">Students</div>
                 </div>
-                <div class="item clickable"><a href="/volunteer-with-us"><img src="/test/volunteers.png"/></a>
+                <div class="item clickable"><a href="/volunteer-with-us"><img src="/home/volunteers.png"/></a>
                     <div class="panel-text">Volunteers</div>
                 </div>
             </div>
             <div class="example absolute">
-                <div class="item clickable"><a href="/partners"><img src="/test/partners.png"/></a>
+                <div class="item clickable"><a href="/partners"><img src="/home/partners.png"/></a>
                     <div class="panel-text">Partners</div>
                 </div>
-                <div class="item clickable"><a href="/teachers-in-robotics-day"><img src="/test/teachers.png"/></a>
+                <div class="item clickable"><a href="/teachers-in-robotics-day"><img src="/home/teachers.png"/></a>
                     <div class="panel-text">Teachers</div>
                 </div>
             </div>
@@ -175,29 +175,29 @@ class Page {
           <h3>Our Initiatives</h3>
           <div className='example absolute'>
             <div className='item'>
-              <img src={process.env.PUBLIC_URL + "/test/home_workshops.png"} />
+              <img src={process.env.PUBLIC_URL + "/home/home_workshops.png"} />
               <div className="image-text">Student Workshops</div>
             </div>
             <div className='item'>
-              <img src={process.env.PUBLIC_URL + "/test/home_stemconnect.png"} />
+              <img src={process.env.PUBLIC_URL + "/home/home_stemconnect.png"} />
               <div className="image-text">STEMConnect Mentoring Program</div>
             </div>
             <div className='item ' >
-              <img src={process.env.PUBLIC_URL + "/test/home_industry.png"} />
+              <img src={process.env.PUBLIC_URL + "/home/home_industry.png"} />
               <div className="image-text">Industry Meet-Ups</div>
             </div>
           </div>
           <div className='example absolute'>
             <div className='item'>
-              <img src={process.env.PUBLIC_URL + "/test/home_social_events.png"} />
+              <img src={process.env.PUBLIC_URL + "/home/home_social_events.png"} />
               <div className="image-text">Social Events</div>
             </div>
             <div className='item'>
-              <img src={process.env.PUBLIC_URL + "/test/home_rural.png"} />
+              <img src={process.env.PUBLIC_URL + "/home/home_rural.png"} />
               <div className="image-text">Rural Trips</div>
             </div>
             <div className='item ' >
-              <img src={process.env.PUBLIC_URL + "/test/home_teacher_workshops.png"} />
+              <img src={process.env.PUBLIC_URL + "/home/home_teacher_workshops.png"} />
               <div className="image-text">Teacher Workshops</div>
             </div>
           </div>
@@ -214,13 +214,13 @@ class Page {
           <div className='example absolute'>
             <div className='item clickable'>
               <a href={`/library-workshops-public-events`}>
-                <img src={process.env.PUBLIC_URL + "/test/students.png"} />
+                <img src={process.env.PUBLIC_URL + "/home/students.png"} />
               </a>
               <div className="panel-text">Students</div>
             </div>
             <div className='item clickable'>
               <a href={`/volunteer-with-us`}>
-                <img src={process.env.PUBLIC_URL + "/test/volunteers.png"} />
+                <img src={process.env.PUBLIC_URL + "/home/volunteers.png"} />
               </a>
               <div className="panel-text">Volunteers</div>
             </div>
@@ -228,13 +228,13 @@ class Page {
           <div className='example absolute'>
             <div className='item clickable' >
               <a href={`/partners`}>
-                <img src={process.env.PUBLIC_URL + "/test/partners.png"} />
+                <img src={process.env.PUBLIC_URL + "/home/partners.png"} />
               </a>
               <div className="panel-text">Partners</div>
             </div>
             <div className='item clickable'>
               <a href={`/teachers-in-robotics-day`}>
-                <img src={process.env.PUBLIC_URL + "/test/teachers.png"} />
+                <img src={process.env.PUBLIC_URL + "/home/teachers.png"} />
               </a>
               <div className="panel-text">Teachers</div>
             </div>
